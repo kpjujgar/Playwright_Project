@@ -1,0 +1,16 @@
+{
+  "name": "playwright-js-pom-json-framework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright JavaScript POM framework with JSON-driven test data",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
